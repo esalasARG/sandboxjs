@@ -41,7 +41,7 @@ while ( seguir == "S" || seguir == "s")
 
     let antiguedadVehiculo = anioactual - modelo;
 
-    if (antiguedadVehiculo < antiguedadBase & patagonico != "S")
+    if (antiguedadVehiculo < antiguedadBase & patagonico != "S" || patagonico != "s")
     {
         console.log("Estas complicado! Vas a garpar 200 USD de patente! Porque tu auto tiene menos de " + antiguedadBase + " años");
 
