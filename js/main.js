@@ -48,7 +48,7 @@ while ( seguir == "S" || seguir == "s")
         alert("SISTEMA DE PATENTES " + anioactual + "\nEstas complicado! Vas a garpar 200 USD de patente! Porque tu auto tiene menos de " + antiguedadBase + " años");
 
     }
-    else if (patagonico == "S")
+    else if (patagonico == "S" || patagonico == "s")
     {
         console.log("Sos de la patagonia! Asi que te vamos a garpar 1000 USD a vos! Aunque tu auto tiene una antiguedad de " + antiguedadVehiculo + " años");
 
