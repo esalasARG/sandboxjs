@@ -1,0 +1,25 @@
+ul{
+    list-style: none;
+}
+
+h1{
+    color:red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+}
+
+div h2{
+    color: chocolate;
+}
+
+.contenedor{
+    width: 200px;
+    align-items: center;
+    background-color: rgba(214, 218, 222, 0.145);
+    border-radius: 5px;
+}
+
+button{
+    background-color: aquamarine;
+}
